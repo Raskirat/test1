@@ -1,13 +1,22 @@
 {
-  "name": "test_1",
+  "name": "test1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Raskirat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raskirat/test1.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raskirat/test1/issues"
+  },
+  "homepage": "https://github.com/Raskirat/test1#readme",
   "dependencies": {
     "express": "^4.18.1"
   }
